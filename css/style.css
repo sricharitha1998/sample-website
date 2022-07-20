@@ -1,0 +1,71 @@
+#bg-image{
+    background-image: url("../images/pic1.jpg");
+    height:500px;
+    /* opacity: 0.8; */
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar-brand,.nav-link{
+    color: white;
+}
+.link1{
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+}
+.banner-text{
+    padding: 15% 10%;
+}
+.para-padding{
+    padding:20px 20%;
+}
+#img-down{
+    margin-bottom: 50px!important;
+}
+.jumbostron{
+    background-color: rgb(215, 235, 242);
+}
+.jumbostron-style{
+    padding: 50px 20px;
+}
+
+.head-jumbo{
+padding-top: 10%;
+}
+.style-btn{
+    border: 1px solid blue;
+    color:blue
+}
+#box1{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: 3px 3px 3px #aaaaaa;
+}
+.box-style{
+    margin: 10px 10px;
+    padding: 15px 10px;
+    border: 1px solid rgb(212, 208, 208);
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #aaaaaa;
+}
+.person-img{
+    background-image: url("../images/pic1.jpg");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius:5px;
+  margin-left:  4px;
+  width:33%
+}
+.person-text{
+    padding:70% 5% 10% 5%;
+}
+
+@media screen and (max-width: 1240px) {
+    .person-img {
+        margin-top: 2px;
+      width: 100%;
+    }
+  }
